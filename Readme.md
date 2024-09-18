@@ -22,4 +22,4 @@ The project uses Streamlit to build a simple user interface where users can ask 
 - __User-friendly Interface__: Built with Streamlit for an interactive Q&A experience.
 - __Containerized Deployment__: Deployable via Docker for consistent, isolated environments.
 
-### Coming soon Setup Instructions and fastapi endpoint to manage vectordatabase
+### Coming soon Setup Instructions and fastapi endpoint to manage vectordatabase and spanish version
