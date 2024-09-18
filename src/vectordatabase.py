@@ -26,8 +26,7 @@ pgvector_docsearch = postgres_connection()
 
 def vector_query_setup():
     retriever = pgvector_docsearch.as_retriever()
-    setup = RunnableParallel(context=retriever, question=RunnablePassthrough())
-    return setup
+    return retriever
     
 
 
