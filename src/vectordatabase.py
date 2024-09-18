@@ -1,8 +1,6 @@
 from langchain_openai import OpenAIEmbeddings
 from langchain_postgres.vectorstores import PGVector
 from sqlalchemy import  URL ,create_engine
-from langchain_core.runnables import RunnableParallel, RunnablePassthrough
-
 
 embeddings = OpenAIEmbeddings(
     model="text-embedding-3-large",
