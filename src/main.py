@@ -32,7 +32,7 @@ chain = load_llm()
 if 'chat_history' not in st.session_state:
     st.session_state.chat_history = []
 
-st.title("Ask about Colombian Constitucion")
+st.title("Chat Constitucion Colombiana")
 
 if 'messages' not in st.session_state:
     st.session_state.messages = []
