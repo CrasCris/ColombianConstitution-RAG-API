@@ -26,5 +26,8 @@ RUN ln -fs /usr/share/zoneinfo/America/Bogota /etc/localtime && \
 WORKDIR /src
 COPY . .
 
-# launch api
+# launch streamlit chat
 CMD ["streamlit", "run", "app.py","--server.enableXsrfProtection","false"]
+
+# launch fastapi endpoint
+# CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
