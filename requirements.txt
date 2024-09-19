@@ -1,0 +1,8 @@
+langchain
+streamlit
+langchain_openai
+langchain_community
+langchain_postgres
+sqlalchemy
+fastapi
+pgvector
