@@ -1,4 +1,11 @@
-# RAG (retrieval augmented generation) with Colombian political constitution
+# RAG (retrieval augmented generation) with Colombian political constitution 🦜️
+
+[![PyPI - License](https://img.shields.io/pypi/l/langchain-core?style=flat-square)](https://opensource.org/licenses/MIT)
+
+
+
+### [Version en Español](Readme_es.md)
+
 
 This repository demonstrates how to set up a Retrieval-Augmented Generation (RAG) application focused on answering questions about the Colombian political constitution. The project utilizes several cutting-edge technologies, including vector databases, language models, and containerization for deployment.
 
